@@ -21,7 +21,7 @@ app.post("/", function(req, res){
 
 const MongoClient = require('mongodb').MongoClient;
 
-const CONNECTION_URL = "mongodb+srv://ychua:<password>@nanostacko.ahrgsi7.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://ychua:cXPF5lDHxmvNo0ul@nanostacko.ahrgsi7.mongodb.net/?retryWrites=true&w=majority";
 const DATABASE_NAME = "nanostacko"; // you can change the database name
 var database, collection;
 
